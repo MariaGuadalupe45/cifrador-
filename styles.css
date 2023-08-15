@@ -1,0 +1,43 @@
+body {
+    background-color: thistle;
+}
+
+h1 {
+    color: saddlebrown;
+    margin-left: 130px;
+    margin-top: 140px;
+}
+
+#conteiner {
+    margin-left: 155px;
+    margin-top: 20px;
+}
+
+#button {
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+#conteiner2 {
+    margin-left: 950px;
+    margin-top: -78px;
+}
+
+#T2 {
+    color: saddlebrown;
+    margin-left: 920px;
+    margin-top: -60px;
+}
+
+#button2 {
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+#resultado {
+    margin-top: 7px;
+}
+
+#resultados {
+    margin-top: 5px;
+}
