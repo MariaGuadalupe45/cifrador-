@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Cifrado César</title>
 </head>
 <body>
-    <h1>mensaje cifrado</h1>
-    <h1 id="T2">mensajes decifrar</h1>
+    
+    <h1>MENSAJE CIFRADO</h1>
     <div id="conteiner">
-        <input id="mensaje" type="text">
+        <input id="mensaje" type="text" placeholder="Ingresa el mensaje">
+        <input id="offsetAmount" type="number" placeholder="Desplazamiento">
         <div id="button">
-            <button onclick="cifrar()">cifrar</button>
+            <button onclick="cifrar()">Cifrar</button>
         </div>
-        <input id="resultado" disabled type="text">
+        <input id="resultado" disabled type="text" placeholder="Mensaje cifrado">
     </div>
+
+    <h1>MENSAJE DECIFRADO</h1>
     <div id="conteiner2">
-        <input id="menci" type="text">
+        <input id="menci" type="text" placeholder="Ingresa el mensaje cifrado">
+        <input id="offsetAmount2" type="number" placeholder="Desplazamiento">
         <div id="button2">
-            <button onclick="decifrar()">decifrar</button> 
+            <button onclick="descifrar()">Descifrar</button> 
         </div>
         <div id="resultados">
-            <input id="res" disabled type="text">
+            <input id="res" disabled type="text" placeholder="Mensaje original">
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
+
